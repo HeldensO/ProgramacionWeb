@@ -1,0 +1,43 @@
+
+
+p, span{
+    color:red;
+    width: 300px;
+    /**Esto es un comentario dentro de CSS*/
+}
+
+section{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+h1{
+    font-family: 'Roboto', sans-serif; /**Defino la familia de tipografia*/
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 15px 15px 20px;
+    font-weight: bold;
+    color: gray;
+}
+*{
+    color: blue;
+}
+
+#mi_parrafo{
+    color: yellow;
+    font-size: 23px;
+    border: 15px solid orange;
+}
+
+.estaesmiclase{/**asi se define una clase en css*/
+    font-weight: bold;
+    color: lightblue;
+}
+
+section h1{/**busca dentro del documento html todos los elementos section que a su vez tengan un h1*/
+font-size: 30px;
+}
